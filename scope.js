@@ -21,3 +21,16 @@ function localvar(){
 	console.log("Value of var is " + y);
 
 }
+
+function letscope(){
+	let x = 10;
+	console.log("Value of let is " + x);
+{
+	let x = 5;
+	console.log("Value of let is " + x);
+}
+	console.log("Value of let is " + x);   // let & var are two ways to define a variable in JS. let don't change value outside block
+
+
+
+}
